@@ -1,0 +1,169 @@
+body{
+    height: 100%;
+    background-color: rgb(243,229,216);
+    display: flex; 
+    justify-content: center;
+    overflow: scroll;
+    
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+     /* color:rgb(128,71,48); */
+     color:rgb(108,66,51);
+
+}
+.omelette_Recipe h1, h2{
+    
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  
+
+.main{
+    
+    width: 50rem;
+    height:100rem ;
+    background-color: rgb(100%,100%,100%);
+    margin: 8.57rem 0 8.57rem 0;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+img{
+    width: 100%;
+    border-radius:1.5rem ;
+}
+
+.Preparation_time{
+    background-color:rgb(255,247,252);
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    border-radius: 1rem;
+}
+
+.Preparation_time h4{
+    display: inline;
+}
+
+.Instrucrions h4{
+    display: inline;
+    
+}
+
+.Ingiredient{
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.294);
+}
+
+.Instrucrions{
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.294);
+}
+
+ .table{
+    border:bottom 0.1rem solid rgba(0, 0, 0, 0.294);
+    display: flex;
+
+ }
+
+ .table p{
+    position: relative;
+    top: 1rem;
+
+ }
+
+ .unit1{
+    position:relative;
+    left: 20rem;
+    font-weight: bold;
+    color:hsl(13, 83%, 35%);
+}
+.unit2{
+    position:relative;
+    left: 20.9rem;
+    font-weight: bold;
+    color:hsl(13, 86%, 33%);
+}
+.unit3{
+    position:relative;
+    left: 20.2rem;
+    font-weight: bold;
+    color:hsl(13, 86%, 33%);
+}
+.unit4{
+    position:relative;
+    left: 21.8rem;
+    font-weight: bold;
+    color:hsl(13, 84%, 35%);
+}
+
+
+h1{
+    color:rgb(48,48,48);
+}
+
+h2{
+    color:hsl(13, 84%, 32%);
+}
+
+
+
+@media(max-width:932px){
+  body{
+    background-color: black;
+
+    
+  }
+
+  .main{
+    width: 100vh;
+
+    align-items:start;
+    height:100%;
+    
+    margin:0%;
+    padding:0%;
+    border-radius: 0%;
+
+    line-height:1.9rem;
+
+
+  }
+  img{
+    width: 100%;
+    border-radius: 0%;
+    padding: 0%;
+  }
+
+  .cuntent{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+  
+.unit1{
+    left: 8rem;
+    top: 1rem;
+}
+.unit2{
+    left: 9rem;
+    top: 1rem;
+
+}
+
+.unit3{
+    left: 8.5rem;
+    top: 1rem;
+
+}
+.unit4{
+    left:10.5rem;
+    top: 1rem;
+
+}
+
+
+
+}
+
+
